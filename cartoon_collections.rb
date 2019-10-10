@@ -18,7 +18,7 @@ def long_planeteer_calls(array)
   
 end
 
-def find_the_cheese(array)# code an argument here
+def find_the_cheese(array)
   array.find do |cheese|
   cheese == "cheddar" || cheese == "gouda" || cheese== "camambert"
   end
